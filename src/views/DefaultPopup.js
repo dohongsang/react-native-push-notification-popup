@@ -246,11 +246,12 @@ const styles = StyleSheet.create({
   popupContainer: {
     position: 'absolute',
     minHeight: 86,
-    width: deviceWidth - (8 * 2),
+    width: deviceWidth - (deviceWidth * 0.1),
     top: CONTAINER_MARGIN_TOP,
     backgroundColor: 'white',  // TEMP
     borderRadius: 12,
     zIndex: 1000,
+    left: (deviceWidth * 0.1) / 2,
 
     // === Shadows ===
     // Android
