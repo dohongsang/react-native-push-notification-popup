@@ -11,7 +11,7 @@ const CONTAINER_MARGIN_TOP = (
     ?
     isIphoneX() ? 44 : 20
     :
-    StatusBar.currentHeight + 10);  // Just to add a bit more padding
+    10);  // Just to add a bit more padding
 
 const slideOffsetYToTranslatePixelMapping = {
   inputRange: [0, 1],
@@ -246,12 +246,12 @@ const styles = StyleSheet.create({
   popupContainer: {
     position: 'absolute',
     minHeight: 86,
-    width: deviceWidth - (deviceWidth * 0.1),
+    width: deviceWidth - (deviceWidth * 0.05),
     top: CONTAINER_MARGIN_TOP,
     backgroundColor: 'white',  // TEMP
     borderRadius: 12,
     zIndex: 1000,
-    left: (deviceWidth * 0.1) / 2,
+    left: (deviceWidth * 0.05) / 2,
 
     // === Shadows ===
     // Android
