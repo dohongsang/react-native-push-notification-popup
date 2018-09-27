@@ -312,16 +312,16 @@ const styles = StyleSheet.create({
   contentTitleContainer: {
   },
   contentTitle: {
-    fontSize: 15,
+    fontSize: 14,
     lineHeight: 18,
     color: 'black',
+    fontWeight: 'bold',
   },
   contentTextContainer: {
   },
   contentText: {
     fontSize: 12,
     lineHeight: 14,
-    color: '#808080',
-    marginTop: 5,
+    color: 'black'
   },
 });
